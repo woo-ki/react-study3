@@ -1,5 +1,7 @@
 import './App.css';
-import ThankyouDialog from './components/3-6.Composition2/ThankyouDialog';
+import Input from './components/3-7.HOC/Input';
+import Button from './components/3-7.HOC/Button';
+// import ThankyouDialog from './components/3-6.Composition2/ThankyouDialog';
 // import WelcomeDialog from './components/3-5.Composition/WelcomeDialog';
 // import Reducer from './components/3-3.Hooks/Reducer';
 // import State from './components/3-3.Hooks/State';
@@ -17,7 +19,9 @@ import ThankyouDialog from './components/3-6.Composition2/ThankyouDialog';
 function App() {
 	return (
 		<div className="App">
-			<ThankyouDialog/>
+			<Input defaultValue={"Input"}  className={"input"}/>
+			<Button className={"button"} children={"test"}/>
+			{/*<ThankyouDialog/>*/}
 			{/*<WelcomeDialog/>*/}
 			{/*<Reducer/>*/}
 			{/*<State/>*/}
