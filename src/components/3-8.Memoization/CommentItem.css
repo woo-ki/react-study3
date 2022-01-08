@@ -1,0 +1,6 @@
+.comment-item {
+    border-bottom: 1px solid gray;
+    padding: 10px;
+    background: pink;
+    cursor: pointer;
+}
